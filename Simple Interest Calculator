@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int a;
+	float p,t,i;
+	float r;
+	while(a=1){
+	printf("\n\nEnter 1 to continue: ");
+	scanf("%d",&a);
+	if(a!=1)
+	{
+		exit(0);
+	}
+	printf("Enter Priciple P: ");
+	scanf("%f",&p);
+	printf("\nEnter Time T: ");
+	scanf("%f",&t);
+	printf("\nEnter Rate R: ");
+	scanf("%f",&r);
+	i=(p*r*t)/100;
+	printf("\nSimple Interest Is: %.2f",i);
+}
+	return 0;
+}
